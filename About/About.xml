@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>EvenMoreLinkables</name>
+  <authors>
+    <li>Hobbes</li>
+  </authors>
+  <packageId>hobbes.evenmorelinkables</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description></description>
+</ModMetaData>
