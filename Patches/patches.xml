@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="ToolCabinet"]</xpath>
+    <value>
+      <li>CNCMachine</li>
+      <li>3DPrinter</li>
+      <li>RobotAssistant</li>
+      <li>Lathe</li>
+      <li>Vice</li>
+      <li>Autoclave</li>
+      <li>Centrifuge</li>
+      <li>LaserEngraver</li>
+      <li>Incinerator</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="MultiAnalyzer"]</xpath>
+    <value>
+      <li>PersonalComputer</li>
+      <li>Still</li>
+      <li>Rotovape</li>
+    </value>
+  </Operation>
+</Patch>

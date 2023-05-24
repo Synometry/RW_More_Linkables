@@ -5,7 +5,7 @@
     <label>personal computer</label>
     <description>Increases work speed when placed near a workbench. One workbench can use up to two tool cabinets.</description>
     <graphicData>
-      <texPath>Things/Buildings/Research/PC</texPath>
+      <texPath>Things/Buildings/Research/10_PC/PC</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,3)</drawSize>
       <drawOffsetNorth>(0,0,0)</drawOffsetNorth>
@@ -58,7 +58,7 @@
     <label>still</label>
     <description>Increases work speed when placed near a workbench. One workbench can use up to two tool cabinets.</description>
     <graphicData>
-      <texPath>Things/Buildings/Research/Still</texPath>
+      <texPath>Things/Buildings/Research/11_Still/Still</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,3)</drawSize>
       <drawOffsetNorth>(0,0,0)</drawOffsetNorth>
