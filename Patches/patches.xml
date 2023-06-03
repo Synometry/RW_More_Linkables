@@ -1,25 +1,124 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+
   <Operation Class="PatchOperationInsert">
+    <xpath>Defs/ThingDef/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="ToolCabinet"]</xpath> <!--Anything affected by a tool cabinet can be affected by a robot assistant-->
+    <value>
+      <li>HobbesLink_RobotAssistant</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="FueledSmithy" or defName="ElectricSmithy"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_Lathe</li>
+      <li>HobbesLink_Vice</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFE_TableSmithyLarge"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TableMachining"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_3DPrinter</li>
+      <li>HobbesLink_Lathe</li>
+      <li>HobbesLink_Vice</li>
+      <li>HobbesLink_Autoclave</li>
+      <li>HobbesLink_LaserEngraver</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFE_TableMachiningLarge"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_LaserEngraver</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/thingDef[defName="AmmoBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_LaserEngraver</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimsenal - Core</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/thingDef[defName="GDTable" or defName="YPTable" or defName="JITable" or defName="TETable"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_LaserEngraver</li>
+      </value>
+    </match>
+  </Operation>
+  
+  <!--Obsolete-->
+  
+  <!--<Operation Class="PatchOperationInsert">
     <xpath>Defs/ThingDef/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="ToolCabinet"]</xpath>
     <value>
-      <li>CNCMachine</li>
-      <li>3DPrinter</li>
-      <li>RobotAssistant</li>
-      <li>Lathe</li>
-      <li>Vice</li>
-      <li>Autoclave</li>
-      <li>Centrifuge</li>
-      <li>LaserEngraver</li>
-      <li>Incinerator</li>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_3DPrinter</li>
+      <li>HobbesLink_RobotAssistant</li>
+      <li>HobbesLink_Lathe</li>
+      <li>HobbesLink_Vice</li>
+      <li>HobbesLink_Autoclave</li>
+      <li>HobbesLink_Centrifuge</li>
+      <li>HobbesLink_LaserEngraver</li>
+      <li>HobbesLink_Incinerator</li>
     </value>
   </Operation>
   <Operation Class="PatchOperationInsert">
     <xpath>Defs/ThingDef/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="MultiAnalyzer"]</xpath>
     <value>
-      <li>PersonalComputer</li>
-      <li>Still</li>
-      <li>Rotovape</li>
+      <li>HobbesLink_PersonalComputer</li>
+      <li>HobbesLink_Still</li>
+      <li>HobbesLink_Rotovape</li>
+      <li>HobbesLink_Autoclave</li>
+      <li>HobbesLink_Centrifuge</li>
+      <li>HobbesLink_Incinerator</li>
     </value>
-  </Operation>
+  </Operation>-->
 </Patch>

@@ -5,8 +5,13 @@
     <li>Hobbes</li>
   </authors>
   <packageId>hobbes.evenmorelinkables</packageId>
+  <description></description>
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
-  <description></description>
+  <loadAfter>
+    <li>VanillaExpanded.VFEProduction</li>
+    <li>rimsenal.core</li>
+    <li>CETeam.CombatExtended</li>
+  </loadAfter>
 </ModMetaData>
