@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="AmmoBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Archotech Expanded</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="BasicArchotechWorkbench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BiofuelRefinery"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_Still</li>
+      <li>HobbesLink_Rotovape</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[LFS] Night Shade Mercenaries</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Building_PlasmaForge"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Omni Core Drill (Continued)</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="CoreDrill"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DrugLab"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_Still</li>
+      <li>HobbesLink_Rotovape</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="ElectricCrematorium"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_RobotAssistant</li>
+      <li>HobbesLink_Vice</li>
+      <li>HobbesLink_Incinerator</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="ElectricSmelter"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_RobotAssistant</li>
+      <li>HobbesLink_Vice</li>
+      <li>HobbesLink_Incinerator</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="ElectricSmithy"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_3DPrinter</li>
+      <li>HobbesLink_RobotAssistant</li>
+      <li>HobbesLink_Lathe</li>
+      <li>HobbesLink_Vice</li>
+      <li>HobbesLink_Autoclave</li>
+      <li>HobbesLink_Centrifuge</li>
+      <li>HobbesLink_LaserEngraver</li>
+      <li>HobbesLink_Incinerator</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="ElectricTailoringBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_3DPrinter</li>
+      <li>HobbesLink_RobotAssistant</li>
+      <li>HobbesLink_Lathe</li>
+      <li>HobbesLink_Vice</li>
+      <li>HobbesLink_Autoclave</li>
+      <li>HobbesLink_Centrifuge</li>
+      <li>HobbesLink_LaserEngraver</li>
+      <li>HobbesLink_Incinerator</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="FabricationBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_3DPrinter</li>
+      <li>HobbesLink_RobotAssistant</li>
+      <li>HobbesLink_Lathe</li>
+      <li>HobbesLink_Vice</li>
+      <li>HobbesLink_Autoclave</li>
+      <li>HobbesLink_Centrifuge</li>
+      <li>HobbesLink_LaserEngraver</li>
+      <li>HobbesLink_Incinerator</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimsenal - Federation Faction Pack</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="FedTable"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimsenal - Feral Faction Pack</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="FeralTable"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fortifications - Industrial</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="FT_TableChemistry"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_Still</li>
+        <li>HobbesLink_Rotovape</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fortifications - Industrial</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="FT_TableConcreteMixer"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fortifications - Industrial</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="FT_TableLathe"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="FueledSmithy"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_3DPrinter</li>
+      <li>HobbesLink_RobotAssistant</li>
+      <li>HobbesLink_Lathe</li>
+      <li>HobbesLink_Vice</li>
+      <li>HobbesLink_Autoclave</li>
+      <li>HobbesLink_Centrifuge</li>
+      <li>HobbesLink_LaserEngraver</li>
+      <li>HobbesLink_Incinerator</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimsenal - Core</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="GDTable"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>HALO - UNSC Faction</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="HALO_UNSC_Assembler"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="HandTailoringBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_3DPrinter</li>
+      <li>HobbesLink_RobotAssistant</li>
+      <li>HobbesLink_Lathe</li>
+      <li>HobbesLink_Vice</li>
+      <li>HobbesLink_Autoclave</li>
+      <li>HobbesLink_Centrifuge</li>
+      <li>HobbesLink_LaserEngraver</li>
+      <li>HobbesLink_Incinerator</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_Autoclave</li>
+      <li>HobbesLink_Centrifuge</li>
+      <li>HobbesLink_Incinerator</li>
+      <li>HobbesLink_PersonalComputer</li>
+      <li>HobbesLink_Still</li>
+      <li>HobbesLink_Rotovape</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimsenal - Core</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="JITable"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="SimpleResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_Autoclave</li>
+      <li>HobbesLink_Centrifuge</li>
+      <li>HobbesLink_Incinerator</li>
+      <li>HobbesLink_PersonalComputer</li>
+      <li>HobbesLink_Still</li>
+      <li>HobbesLink_Rotovape</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ambition of the Cosmic</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenI"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ambition of the Cosmic</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenII"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ambition of the Cosmic</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenIII"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ambition of the Cosmic</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Table_SNS_Constructor"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ambition of the Cosmic</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Table_SNS_CosmicCall"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ambition of the Cosmic</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Table_SNS_CosmicDrawer"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ambition of the Cosmic</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Table_SNS_NutrientProcessor"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ambition of the Cosmic</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Table_SNS_PinnacleFabricator"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ambition of the Cosmic</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Table_SNS_Unobtainer"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Expanded Prosthetics and Organ Engineering - Forked</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="TableBionics"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Fabrics Simplified</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="TableElecLoom"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Fabrics Simplified</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="TableLoom"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TableMachining"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_3DPrinter</li>
+      <li>HobbesLink_RobotAssistant</li>
+      <li>HobbesLink_Lathe</li>
+      <li>HobbesLink_Vice</li>
+      <li>HobbesLink_Autoclave</li>
+      <li>HobbesLink_Centrifuge</li>
+      <li>HobbesLink_LaserEngraver</li>
+      <li>HobbesLink_Incinerator</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Expanded Prosthetics and Organ Engineering - Forked</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="TableOrgans"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TableSculpting"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_RobotAssistant</li>
+      <li>HobbesLink_Vice</li>
+      <li>HobbesLink_Incinerator</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TableStonecutter"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>HobbesLink_CNCMachine</li>
+      <li>HobbesLink_RobotAssistant</li>
+      <li>HobbesLink_Vice</li>
+      <li>HobbesLink_Incinerator</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimsenal - Core</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="TETable"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VCE_CanningMachine"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFE_ComponentFabricationBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFE_TableButcherElectric"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFE_TableDrugLabElectric"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_Still</li>
+        <li>HobbesLink_Rotovape</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFE_TableMachiningLarge"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFE_TableSmithyLarge"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFE_TableTailorLarge"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Pirates</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEP_WarcasketFoundry"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimsenal - Core</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="YPTable"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>HobbesLink_CNCMachine</li>
+        <li>HobbesLink_3DPrinter</li>
+        <li>HobbesLink_RobotAssistant</li>
+        <li>HobbesLink_Lathe</li>
+        <li>HobbesLink_Vice</li>
+        <li>HobbesLink_Autoclave</li>
+        <li>HobbesLink_Centrifuge</li>
+        <li>HobbesLink_LaserEngraver</li>
+        <li>HobbesLink_Incinerator</li>
+      </value>
+    </match>
+  </Operation>
+
+</Patch>

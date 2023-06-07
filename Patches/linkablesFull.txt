@@ -1,0 +1,91 @@
+CNC Machine - dumb
+CNC Machine - precision
+3D Printer - precision
+Robot Assistant - precision
+Robot Assistant - dumb
+Lathe - precision
+Vice - dumb
+Vice - precision
+Autoclave - precision
+Autoclave - research
+Centrifuge - precision
+Centrifuge - research
+Laser Engraver - precision
+Incinerator - research
+Incinerator - dumb
+Incinerator - precision
+Personal Computer - research
+Solvent Still - research
+Solvent Still - chemistry
+Rotary Evaporator - research
+Rotary Evaporator - chemistry
+Laser - research
+Laser - chemistry
+X-Ray - research
+Hazardous waste disposal bin - research
+Hazardous waste disposal bin - chemistry
+Surgery Robot - medbed
+Surgical Tools - medbed
+Surgical Lamp - medbed
+Defibrillator - medbed
+Sterilizer - medbed
+EKG Machine - medbed
+Cooling Module - geopower
+Sound Dampener - geopower
+Alternator - geopower
+Transformer - geopower
+Breaker Cabinet - geopower
+Control Terminal - geopower
+Emergency Valve - geopower
+Turbine Module - geopower
+Vapor Pipeline - geopower
+Pressurizer - geopower
+Cooling Module - solarpower
+Sound Dampener - solarpower
+Alternator - solarpower
+Transformer - solarpower
+Breaker Cabinet - solarpower
+Control Terminal - solarpower
+Emergency Valve - solarpower
+Turbine Module - solarpower
+Solar Panel - solarpower
+Solar Panel w/Microinverter - solarpower
+Solar Panel w/Optimizer - solarpower
+Solar Pnael w/Optimizer&Microinverter - solarpower
+Cooling Module - windpower
+Sound Dampener - windpower
+Alternator - windpower
+Transformer - windpower
+Breaker Cabinet - windpower
+Control Terminal - windpower
+Emergency Valve - windpower
+Turbine Module - windpower
+Turbine Tower - windpower
+Extranacellar Turbine - windpower
+Cooling Module - waterpower
+Sound Dampener - waterpower
+Alternator - waterpower
+Transformer - waterpower
+Breaker Cabinet - waterpower
+Control Terminal - waterpower
+Emergency Valve - waterpower
+Turbine Module - waterpower
+Additional Water Wheel - waterpower
+Cooling Module - fuelpower
+Sound Dampener - fuelpower
+Alternator - fuelpower
+Transformer - fuelpower
+Breaker Cabinet - fuelpower
+Control Terminal - fuelpower
+Emergency Valve - fuelpower
+Turbine Module - fuelpower
+Cylinder Assembly - fuelpower
+Fuel Injector - fuelpower
+Cooling Module - power
+Sound Dampener - power
+Alternator - power
+Transformer - power
+Breaker Cabinet - power
+Control Terminal - power
+Emergency Valve - power
+Turbine Module - power

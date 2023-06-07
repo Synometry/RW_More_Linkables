@@ -1,0 +1,81 @@
+advanced_nuclear_generator - Advanced Power Plus - power
+AmmoBench - Combat Extended - precision
+BasicArchotechWorkbench - Archotech Expanded - precision
+BiofuelRefinery - Core - chemistry
+Building_PlasmaForge - [LFS] Night Shade Mercenaries - precision
+ChemfuelPoweredGenerator - Core - fuelpower
+CoreDrill - Omni Core Drill (Continued) - dumb
+DrugLab - Core - chemistry
+ElectricCrematorium - Core - dumb
+ElectricSmelter - Core - dumb
+ElectricSmithy - Core - precision
+ElectricTailoringBench - Core - precision
+FabricationBench - Core - precision
+FedTable - Rimsenal - Federation Faction Pack - precision
+FeralTable - Rimsenal - Feral Faction Pack - precision
+FT_TableChemistry - Fortifications - Industrial - chemistry
+FT_TableConcreteMixer - Fortifications - Industrial - dumb
+FT_TableLathe - Fortifications - Industrial - precision
+FueledSmithy - Core - precision
+GDTable - Rimsenal - Core - precision
+GeothermalGenerator - Core - geopower
+HALO_UNSC_Assembler - HALO - UNSC Faction - precision
+HandTailoringBench - Core - precision
+HiTechResearchBench - Core - research
+JITable - Rimsenal - Core - precision
+large_ASRG - Advanced Power Plus - nuclearpower
+RM_VanometricGenerator - Reinforced Mechanoid 2 - power
+sd_adv_powergen_adv_geothermal_generator - Advanced Power Plus - geopower
+sd_adv_powergen_adv_solar_generator - Advanced Power Plus - solarpower
+sd_adv_powergen_adv_wind_turbine - Advanced Power Plus - windpower
+sd_adv_powergen_WatermillGenerator - Advanced Power Plus - waterpower
+SimpleResearchBench - Core - research
+SNS_Reactor_I - Ambition of the Cosmic - power
+SNS_Reactor_I_Portable - Ambition of the Cosmic - power
+SNS_Reactor_II - Ambition of the Cosmic - power
+SNS_Reactor_II_Portable - Ambition of the Cosmic - power
+SNS_Reactor_III - Ambition of the Cosmic - power
+SolarGenerator - Core - solarpower
+SteamGeyser - Core - geopower
+Table_SNS_BionicCraftingStation_GenI - Ambition of the Cosmic - precision
+Table_SNS_BionicCraftingStation_GenII - Ambition of the Cosmic - precision
+Table_SNS_BionicCraftingStation_GenIII - Ambition of the Cosmic - precision
+Table_SNS_Constructor - Ambition of the Cosmic - precision
+Table_SNS_CosmicCall - Ambition of the Cosmic - precision
+Table_SNS_CosmicDrawer - Ambition of the Cosmic - precision
+Table_SNS_NutrientProcessor - Ambition of the Cosmic - precision
+Table_SNS_PinnacleFabricator - Ambition of the Cosmic - precision
+Table_SNS_Unobtainer - Ambition of the Cosmic - precision
+TableBionics - Expanded Prosthetics and Organ Engineering - Forked - precision
+TableElecLoom - VGP Garden Fabrics Simplified - dumb
+TableLoom - VGP Garden Fabrics Simplified - dumb
+TableMachining - Core - precision
+TableOrgans - Expanded Prosthetics and Organ Engineering - Forked - precision
+TableSculpting - Core - dumb
+TableStonecutter - Core - dumb
+TETable - Rimsenal - Core - precision
+VCE_CanningMachine - Vanilla Cooking Expanded - dumb
+VFE_AdvancedSolarGenerator - Vanilla Furniture Expanded - Power - solarpower
+VFE_AdvancedWatermillGenerator - Vanilla Furniture Expanded - Power - waterpower
+VFE_AdvancedWindTurbine - Vanilla Furniture Expanded - Power - windpower
+VFE_ComponentFabricationBench - Vanilla Furniture Expanded - Production - precision
+VFE_IndustrialChemfuelPoweredGenerator - Vanilla Furniture Expanded - Power - fuelpower
+VFE_IndustrialWoodFiredGenerator - Vanilla Furniture Expanded - Power - fuelpower
+VFE_PortableChemfuelPoweredGenerator - Vanilla Furniture Expanded - Power - fuelpower
+VFE_PortableWoodFiredGenerator - Vanilla Furniture Expanded - Power - fuelpower
+VFE_TableButcherElectric - Vanilla Furniture Expanded - Production - dumb
+VFE_TableDrugLabElectric - Vanilla Furniture Expanded - Production - chemistry
+VFE_TableMachiningLarge - Vanilla Furniture Expanded - Production - precision
+VFE_TableSmithyLarge - Vanilla Furniture Expanded - Production - precision
+VFE_TableTailorLarge - Vanilla Furniture Expanded - Production - precision
+VFE_TidalGenerator - Vanilla Furniture Expanded - Power - power
+VFEP_WarcasketFoundry - Vanilla Factions Expanded - Pirates - precision
+VPE_AdvancedGeothermalGenerator - Vanilla Furniture Expanded - Power - geopower
+WatermillGenerator - Core - waterpower
+WindTurbine - Core - windpower
+WoodFiredGenerator - Core - fuelpower
+YPTable - Rimsenal - Core - precision
+HospitalBed - Core - medbed
+HerbBede - Fast regen 1.4 - medbed
+MedBed - Fast regen 1.4 - medbed
+IIMed - Fast regen 1.4 - medbed

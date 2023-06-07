@@ -10,8 +10,23 @@
     <li>1.4</li>
   </supportedVersions>
   <loadAfter>
-    <li>VanillaExpanded.VFEProduction</li>
-    <li>rimsenal.core</li>
-    <li>CETeam.CombatExtended</li>
+    <li>meltup.advancedpowerplus</li>
+    <li>ceteam.combatextended</li>
+    <li>teok25.archotechexpanded</li>
+    <li>lazyfridaystudio.nightshademercenarys</li>
+    <li>mlie.omnicoredrill</li>
+    <li>rimsenal.federation</li>
+    <li>rimsenal.feral</li>
+    <li>aoba.fortress.industrial</li>
+    <li>harkon.halo.unscfaction</li>
+    <li>hlx.reinforcedmechanoids2</li>
+    <li>explodoboy.snsambitioncosmic</li>
+    <li>vat.epoeforked</li>
+    <li>dismarzero.vgp.vgpgardenfabricssimplified</li>
+    <li>vanillaexpanded.vcooke</li>
+    <li>vanillaexpanded.vfepower</li>
+    <li>vanillaexpanded.vfeproduction</li>
+    <li>oskarpotocki.vfe.pirates</li>
+    <li>daniledman.fastregen</li>
   </loadAfter>
 </ModMetaData>
