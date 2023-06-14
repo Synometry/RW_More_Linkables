@@ -78,6 +78,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(8,8)</drawSize>
     </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <statBases>
       <WorkToBuild>3600</WorkToBuild>
       <Mass>170</Mass>
@@ -97,6 +98,14 @@
         <!-- TODO: Custom comp grants chance for instant completion every 100 "work" -->
         <maxSimultaneous>1</maxSimultaneous>
         <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
+      </li>
+      <li Class="Hobbes.MoreLinkables.CompProperties_SecondLayer">
+        <graphicData>
+          <texPath>Things/Buildings/Machining/3_RobotAss/RobotAss2</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>(8,8)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
       </li>
     </comps>
   </ThingDef>
