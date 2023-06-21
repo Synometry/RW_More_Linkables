@@ -79,6 +79,7 @@
       <drawSize>(8,8)</drawSize>
     </graphicData>
     <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Long</tickerType>
     <statBases>
       <WorkToBuild>3600</WorkToBuild>
       <Mass>170</Mass>
@@ -94,10 +95,18 @@
       <li>Fabrication</li>
     </researchPrerequisites>
     <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>2900</basePowerConsumption>
+      </li>
       <li Class="CompProperties_Facility">
-        <!-- TODO: Custom comp grants chance for instant completion every 100 "work" -->
         <maxSimultaneous>1</maxSimultaneous>
         <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
+      </li>
+      <li Class="Hobbes.MoreLinkables.CompProperties_WorkHelper">
+        <radius>5</radius>
+        <tickInterval>300</tickInterval>
       </li>
       <li Class="Hobbes.MoreLinkables.CompProperties_SecondLayer">
         <graphicData>
